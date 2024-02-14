@@ -145,5 +145,5 @@ def scrape_epidemology_files(parse_urls: list[str]) -> None:
     batch_download_files(epidemiology_files_url)
 
 print("Downloading files...")
-scrape_epidemology_files(URLS)
+# scrape_epidemology_files(URLS)
 print("Download complete.")
